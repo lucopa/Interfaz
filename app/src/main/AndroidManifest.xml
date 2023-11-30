@@ -6,7 +6,7 @@
         android:name="android.hardware.telephony"
         android:required="false" />
 
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -21,10 +21,20 @@
         android:theme="@style/Theme.Interfaz"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            />
+        <activity
+            android:name=".Chistes"
+            android:exported="false" />
+        <activity
+            android:name=".DatosDeEntrada"
+            android:exported="false" />
+        <activity
             android:name=".Pantalla2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Dados"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,12 +4,14 @@ package com.example.interfaz
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.media.Image
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.AlarmClock
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.ImageView
 
 import java.util.Calendar
 
@@ -26,8 +28,28 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val boton2 : ImageButton = findViewById(R.id.imageDados)
+        boton2.setOnClickListener{
+            val intent: Intent = Intent (this, Dados:: class.java)
+            startActivity(intent)
+        }
 
-        val alarma: ImageButton = findViewById(R.id.botonAlarma)
+        val boton3 : ImageView = findViewById(R.id.imageLobo)
+        boton3.setOnClickListener{
+            val intent: Intent = Intent (this, DatosDeEntrada:: class.java)
+            startActivity(intent)
+        }
+
+        val boton4 : ImageButton = findViewById(R.id.botonChiste)
+        boton4.setOnClickListener{
+            val intent: Intent = Intent (this, Chistes:: class.java)
+            startActivity(intent)
+        }
+
+
+
+
+        val alarma: ImageButton = findViewById(R.id.imageAlarma)
         alarma.setOnClickListener() {
             abrirAlarma()
 

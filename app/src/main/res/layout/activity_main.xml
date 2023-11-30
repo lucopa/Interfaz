@@ -9,7 +9,7 @@
 
    <View
        android:layout_width="match_parent"
-       android:layout_height="350dp"
+       android:layout_height="320dp"
        android:background="#78909C"
        tools:ignore="MissingConstraints"
        tools:layout_editor_absoluteX="0dp"
@@ -17,91 +17,56 @@
 
 
  <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="281dp"
-        android:layout_height="190dp"
-        app:srcCompat="@drawable/lobo"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="42dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.104"/>
+     android:id="@+id/imageView4"
+     android:layout_width="201dp"
+     android:layout_height="120dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.237"
+     app:srcCompat="@drawable/trono" />
 
-   <TextView
-       android:layout_width="150dp"
-       android:layout_height="30dp"
-       android:text="TELÉFONO LUIS"
-       android:textSize="20dp"
-       android:textStyle="bold"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.498"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.388" />
+ <TextView
+     android:layout_width="150dp"
+     android:layout_height="30dp"
+     android:text="TELÉFONO LUIS"
+     android:textSize="20dp"
+     android:textStyle="bold"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.498"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.392" />
 
+ <View
+     android:id="@+id/textView2"
+     android:layout_width="350dp"
+     android:layout_height="130dp"
+     android:background="@drawable/rounded_border_background"
+     android:padding="8dp"
+     android:text="Tu texto aquí"
+     android:textSize="16sp"
+     tools:ignore="MissingConstraints"
+     tools:layout_editor_absoluteX="30dp"
+     tools:layout_editor_absoluteY="585dp" />
 
-
-
-    <TextView
-       android:layout_width="300dp"
-       android:layout_height="30dp"
-       android:text="Soy alumno de 2 de DAM"
-       android:textSize="20dp"
-       android:textStyle="bold"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.765"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.442" />
-
-    <View
-        android:id="@+id/textView2"
-        android:layout_width="350dp"
-        android:layout_height="130dp"
-        android:background="@drawable/rounded_border_background"
-        android:padding="8dp"
-        android:text="Tu texto aquí"
-        android:textSize="16sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="585dp" />
-
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:text="JUEGO DE
-       TRONOS"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.91" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="201dp"
-        android:layout_height="116dp"
-        android:background="@android:color/transparent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.876"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.961"
-        app:srcCompat="@drawable/stark_115482" />
-
+ <ImageView
+     android:id="@+id/imageLobo"
+     android:layout_width="201dp"
+     android:layout_height="116dp"
+     android:background="@android:color/transparent"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.450"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toTopOf="parent"
+     app:layout_constraintVertical_bias="0.975"
+     app:srcCompat="@drawable/stark_115482" />
 
  <ImageButton
-     android:id="@+id/imageButton"
+     android:id="@+id/imageAlarma"
      android:layout_width="80dp"
      android:layout_height="80dp"
      android:backgroundTint="#B3E5FC"
@@ -117,7 +82,7 @@
      tools:ignore="SpeakableTextPresentCheck" />
 
  <ImageButton
-     android:id="@+id/botonAlarma"
+     android:id="@+id/botonChiste"
      android:layout_width="80dp"
      android:layout_height="80dp"
      android:backgroundTint="#B3E5FC"
@@ -149,7 +114,7 @@
      tools:ignore="SpeakableTextPresentCheck" />
 
  <ImageButton
-     android:id="@+id/imageButton4"
+     android:id="@+id/imageDados"
      android:layout_width="80dp"
      android:layout_height="80dp"
      android:backgroundTint="#B3E5FC"
@@ -161,7 +126,7 @@
      app:layout_constraintStart_toStartOf="parent"
      app:layout_constraintTop_toTopOf="parent"
      app:layout_constraintVertical_bias="0.731"
-     app:srcCompat="@drawable/apagar"
+     app:srcCompat="@drawable/dado1"
      tools:ignore="SpeakableTextPresentCheck" />
 
  <ImageButton
@@ -224,7 +189,7 @@
      android:id="@+id/textView4"
      android:layout_width="53dp"
      android:layout_height="15dp"
-     android:text="Alarma"
+     android:text="Chistes"
      app:layout_constraintBottom_toBottomOf="parent"
      app:layout_constraintEnd_toEndOf="parent"
      app:layout_constraintHorizontal_bias="0.793"
@@ -236,7 +201,7 @@
      android:id="@+id/textView5"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
-     android:text="Adios"
+     android:text="Dados"
      app:layout_constraintBottom_toBottomOf="parent"
      app:layout_constraintEnd_toEndOf="parent"
      app:layout_constraintHorizontal_bias="0.757"
