@@ -9,6 +9,7 @@
 
     <ImageButton
         android:id="@+id/boton_llamada"
+        android:contentDescription="llamada"
         android:layout_width="286dp"
         android:layout_height="443dp"
         android:background="@android:color/transparent"

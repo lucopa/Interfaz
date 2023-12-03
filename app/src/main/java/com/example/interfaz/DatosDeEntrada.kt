@@ -168,7 +168,7 @@ class DatosDeEntrada : AppCompatActivity() {
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
-                // Acción cuando no se selecciona nada
+                //  cuando no se selecciona nada
             }
         }
     }

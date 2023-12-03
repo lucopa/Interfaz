@@ -78,7 +78,7 @@
      app:layout_constraintStart_toStartOf="parent"
      app:layout_constraintTop_toTopOf="parent"
      app:layout_constraintVertical_bias="0.568"
-     app:srcCompat="@drawable/correo"
+     app:srcCompat="@drawable/reloj"
      tools:ignore="SpeakableTextPresentCheck" />
 
  <ImageButton
@@ -142,7 +142,7 @@
      app:layout_constraintStart_toStartOf="parent"
      app:layout_constraintTop_toTopOf="parent"
      app:layout_constraintVertical_bias="0.731"
-     app:srcCompat="@drawable/sim"
+     app:srcCompat="@drawable/youtube"
      tools:ignore="SpeakableTextPresentCheck" />
 
  <ImageButton
@@ -165,7 +165,7 @@
      android:id="@+id/textView"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
-     android:text="Email"
+     android:text="Alarma"
      app:layout_constraintBottom_toBottomOf="parent"
      app:layout_constraintEnd_toEndOf="parent"
      app:layout_constraintHorizontal_bias="0.475"
